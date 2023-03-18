@@ -2,7 +2,7 @@
 
 E-Mail: afabriciog@gmail.com
 
-Github: afabriciog.github.io
+Site(Github): afabriciog.github.io
 
 Sysadmin, tireless seeker of useful technologies to improve the quality of life looking for new challenges
 
@@ -29,11 +29,11 @@ CI/CD
   * Python
   * Dart
 
-* Professional Experience
+## Professional Experience
 
 System administrator since 1999 at the National University de Santiago del Estero, Argentina work in which I have developed some skills as an administrator of email systems, DNS systems, LDAP directories, Firewalls, proxy and so on.
 
-* Idioms
+## Idioms
 
 Spanish (native)
 
