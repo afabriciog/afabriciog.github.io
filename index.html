@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Welcome to Draft of My Page on GitHub</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Welcome to Draft of My Page on GitHub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="https://github.com/afabriciog/afabriciog.github.io/blob/main/CV.md">CV</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="hero">
-			<h1>Welcome to Draft of My Page on GitHub</h1>
-		</section>
-	</main>
-	<footer>
-		<p>...</p>
-	</footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://github.com/afabriciog/afabriciog.github.io/blob/main/CV.md">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>   </aside>
+        <h1>Welcome to Draft of My Page on GitHub</h1>
+
+        <blockquote>Very soon we will have content</blockquote>
+
+        <p></p>
+
+        <h4>Mermaid diagram example</h4>
+        <div class="mermaid">
+
+
+            %%{ init: { 'theme': 'base', 'flowchart': { 'curve': 'stepBefore' }, 'themeVariables': { 'lineColor':
+            '#3F3F3F' } } }%%
+            graph LR;
+            internet(["🌎 Internet"]):::cloud
+            subgraph ROUTER
+            eth0("GigabitEthernet0/1"):::netlocalnet
+            eth1("GigabitEthernet1/1"):::netexternalnet
+            end
+            localnet(["🖧 LOCALNET"]):::netlocalnet
+            externalnet(["🖧 EXTERNALNET"]):::netexternalnet
+
+            %% Relations
+            eth0 --- localnet
+            eth1 --- externalnet --- internet
+
+            %% Styles
+            classDef cloud fill:#B0E3E6,stroke:#587273,stroke-width:1px,color:#000;
+            classDef netexternalnet fill:#A396B4,stroke:#827890,stroke-width:1px,color:#000;
+            classDef netlocalnet fill:#D43B19,stroke:#D43B,stroke-width:1px,color:#fff;
+            classDef device fill:#5C002E,stroke:#3C001E,stroke-width:2px,color:#fff;
+            class ROUTER device;
+
+
+
+
+        </div>
+    </main>
+    <footer>
+        <p>SysAdmin's and development content</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true
+        });
+    </script>
 </body>
+
 </html>
