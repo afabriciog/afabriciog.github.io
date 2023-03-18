@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: #2d2d2d;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos de la terminal */
+header {
+	background-color: #555;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+h1 {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+.terminal {
+	margin-top: 80px;
+	background-color: #2d2d2d;
+	border-radius: 3px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.barra-superior {
+	background-color: #555;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.usuario {
+	color: #fff;
+}
+
+.directorio {
+	color: #b5cea8;
+	margin: 0 5px;
+}
+
+input {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	width: 100%;
+}
+
+.contenido {
+	padding: 10px;
+}
+
+.contenido p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.contenido p.error {
+	color: #cc0000;
+}
+
+.contenido p.exito {
+	color: #00cc00;
+}
