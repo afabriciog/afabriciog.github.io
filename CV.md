@@ -33,8 +33,8 @@ CI/CD
 
 System administrator since 1999 at the National University de Santiago del Estero, Argentina work in which I have developed some skills as an administrator of email systems, DNS systems, LDAP directories, Firewalls, proxy and so on.
 
-## Idioms
+## Languages
 
 Spanish (native)
 
-English (in learning process)
+English (basic)
